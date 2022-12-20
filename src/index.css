@@ -312,7 +312,7 @@ a{
   display: flex;
   flex-direction: column;
   
-}
+};
 .box-child{
   width: 100%;
 }
