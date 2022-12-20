@@ -150,21 +150,7 @@ const Home = () => {
                     </div>
                 </div>
             </section>
-            <footer>
-                <div className="footer-bg">
-                    <div className="container">
-                        <div className="footer">
-                            <h3>© 2022 Dapps Connect | All rights reserved.</h3>
-                            <div className="icons">
-                                <i class="fa-brands fa-facebook"></i>
-                                <i class="fa-brands fa-twitter"></i>
-                                <i class="fa-brands fa-github"></i>
-                                <i class="fa-brands fa-telegram"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </footer>
+    
 
         </>
     )
