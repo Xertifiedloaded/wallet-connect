@@ -16,7 +16,7 @@ body {
 }
 
 .container {
-  width: 90%;
+  width: 95%;
   margin: 0 auto;
 }
 
@@ -45,6 +45,7 @@ body {
 .header {
   position: fixed;
   width: 100%;
+  z-index: 999;
   background-color: rgb(255, 255, 255);
   box-shadow: rgb(20, 27, 41) 0px -15px 25px
 }
@@ -233,28 +234,89 @@ body {
   background-color: rgb(255, 255, 255);
 
 }
-@media screen  and (max-width:600px){
-  .row{
+
+.box {
+  height: 100vh;
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+gap: 20px;
+
+}
+a{
+  text-decoration: none;
+}
+
+.box-child {
+  border: 1px solid blue;
+  text-transform: uppercase;
+  width: 30%;
+  height: 50px;
+  position: relative;
+}
+.share{
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 13px;
+  color: blue;
+}
+.box-child>p{
+  color: blue;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+
+
+@media screen and (max-width:600px) {
+  .row {
     display: block;
   }
-  .col1,.col2{
+
+  .col1,
+  .col2 {
     width: 100%;
     padding: 10px 0;
   }
-  .left,.right{
+
+  .left,
+  .right {
     width: 100%;
     padding: 20px 0;
   }
-  .cards{
+
+  .cards {
     display: block;
     border: none;
   }
-  .card{
+
+  .card {
     width: 100%;
     padding: 20px 0;
   }
-  .card-btn{
+
+  .card-btn {
     padding: 15px 0;
     border-radius: 0;
-  };
+  }
+.box{
+  display: flex;
+  flex-direction: column;
+  
+}
+.box-child{
+  width: 100%;
+}
+.header-logo{
+  width: 100%;
+}
 }

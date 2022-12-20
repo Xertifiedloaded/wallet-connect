@@ -7,7 +7,9 @@ const Header = () => {
                     <div className="logo-nav">
                         <div className="logo">
                             <div className="logo-img-cont">
-                                <a href="/"><img className="header-logo" src="./logo/logo.png" alt="hello" /></a>
+                                <a href="/">
+                                    <img className="header-logo" src="./logo/logo.png" alt="hello" />
+                                </a>
                             </div>
                             <div className="title">
                                 <h4>wallet connect</h4>

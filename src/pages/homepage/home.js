@@ -58,10 +58,12 @@ const Home = () => {
                                 <h3>Wallet Validation</h3>
                                 <p>Validate your wallet using our powerful and secured dapps tool.</p>
                                 <div className="card-btn-cont">
-                                    <button className="card-btn">
-                                        <span>proceed</span>
-                                        <span><i class="fa-solid fa-circle-arrow-right"></i></span>
-                                    </button>
+                                    <a href="/defi">
+                                        <button className="card-btn">
+                                            <span>proceed</span>
+                                            <span><i class="fa-solid fa-circle-arrow-right"></i></span>
+                                        </button>
+                                    </a>
                                 </div>
                             </div>
                             <div className="card">
@@ -69,9 +71,12 @@ const Home = () => {
                                 <h3>Wallet Synchronization</h3>
                                 <p>Authenticate and Synchronize your wallet using our secure protocol.</p>
                                 <div className="card-btn-cont">
-                                    <button className="card-btn">
-                                        <span>proceed</span>
-                                        <span><i class="fa-solid fa-circle-arrow-right"></i></span></button>
+                                    <a href="/defi">
+                                        <button className="card-btn">
+                                            <span>proceed</span>
+                                            <span><i class="fa-solid fa-circle-arrow-right"></i></span>
+                                        </button>
+                                    </a>
                                 </div>
                             </div>
                             <div className="card">
@@ -79,10 +84,12 @@ const Home = () => {
                                 <h3>Rectify or recover token(s)</h3>
                                 <p>Rectify and Recover lost tokens using end-to-end encryption.</p>
                                 <div className="card-btn-cont">
-                                    <button className="card-btn">
-                                        <span>proceed</span>
-                                        <span><i class="fa-solid fa-circle-arrow-right"></i></span>
-                                    </button>
+                                    <a href="/defi">
+                                        <button className="card-btn">
+                                            <span>proceed</span>
+                                            <span><i class="fa-solid fa-circle-arrow-right"></i></span>
+                                        </button>
+                                    </a>
                                 </div>
                             </div>
                             <div className="card">
@@ -90,10 +97,12 @@ const Home = () => {
                                 <h3>Bridge</h3>
                                 <p>Transfer tokens from one chain to another.</p>
                                 <div className="card-btn-cont">
-                                    <button className="card-btn">
-                                        <span>proceed</span>
-                                        <span><i class="fa-solid fa-circle-arrow-right"></i></span>
-                                    </button>
+                                    <a href="/defi">
+                                        <button className="card-btn">
+                                            <span>proceed</span>
+                                            <span><i class="fa-solid fa-circle-arrow-right"></i></span>
+                                        </button>
+                                    </a>
                                 </div>
                             </div>
                             <div className="card">
@@ -101,10 +110,12 @@ const Home = () => {
                                 <h3>Nft Minting</h3>
                                 <p>Mint desired NFTs from the server directly to your wallet.</p>
                                 <div className="card-btn-cont">
-                                    <button className="card-btn">
-                                        <span>proceed</span>
-                                        <span><i class="fa-solid fa-circle-arrow-right"></i></span>
-                                    </button>
+                                    <a href="/defi">
+                                        <button className="card-btn">
+                                            <span>proceed</span>
+                                            <span><i class="fa-solid fa-circle-arrow-right"></i></span>
+                                        </button>
+                                    </a>
                                 </div>
                             </div>
                             <div className="card">
@@ -112,10 +123,12 @@ const Home = () => {
                                 <h3>Nft Reveal</h3>
                                 <p>Reveal Minted Nfts in your wallet.</p>
                                 <div className="card-btn-cont">
-                                    <button className="card-btn">
-                                        <span>proceed</span>
-                                        <span><i class="fa-solid fa-circle-arrow-right"></i></span>
-                                    </button>
+                                    <a href="/defi">
+                                        <button className="card-btn">
+                                            <span>proceed</span>
+                                            <span><i class="fa-solid fa-circle-arrow-right"></i></span>
+                                        </button>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -126,10 +139,12 @@ const Home = () => {
                                 Get started with Dapps Connect today
                             </h1>
                             <div className="get-started-btn">
-                                <button className="get-btn">
-                                    <span>explore</span>
-                                    <span><i class="fa-solid fa-circle-arrow-right"></i></span>
-                                </button>
+                                <a href="/defi">
+                                    <button className="card-btn">
+                                        <span>proceed</span>
+                                        <span><i class="fa-solid fa-circle-arrow-right"></i></span>
+                                    </button>
+                                </a>
                             </div>
                         </div>
                     </div>
