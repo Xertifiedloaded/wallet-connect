@@ -1,13 +1,260 @@
-body {
+* {
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background-color: black;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.logo-nav {
+  display: flex;
+  padding: 20px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo {
+  width: 80%;
+}
+
+.title {
+  text-transform: capitalize;
+}
+
+.logo,
+.nav {
+  width: 50%;
+}
+
+.logo-img-cont {
+  width: 10%;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgb(20, 27, 41) 0px -15px 25px
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-btn {
+  padding: 10px 40px;
+  text-transform: capitalize;
+  background-color: rgb(58, 134, 255);
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.my-home {
+  background-color: white;
+  width: 100%;
+  padding-top: 100px;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  gap: 30px;
+  padding: 20px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.col1,
+.col2 {
+  width: 40%;
+}
+
+.col1-header {
+  padding-bottom: 10px;
+}
+
+.hero-cont {
+  width: 100%;
+}
+
+.hero-cont>.hero-img {
+  width: 100%;
+}
+
+.about {
+  color: white;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.left,
+.right {
+  /* color: white; */
+  width: 50%;
+}
+
+.about-about {
+  background-color: rgb(255, 255, 255);
+}
+
+.left>h2 {
+  padding: 10px 0;
+}
+
+.left>p {
+  padding: 10px 0;
+  font-size: 14px;
+
+}
+
+.right>h2 {
+  padding: 10px 0;
+}
+
+.right>p {
+  padding: 10px 0;
+  font-size: 14px;
+
+}
+
+.row1 {
+  padding: 60px 0;
+}
+
+.box-container {}
+
+.cards {
+  width: 100%;
+  padding: 50px 0;
+  border: 1px solid blue;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  background-color: rgb(255, 255, 255);
+}
+
+.card {
+  width: 30%;
+
+  /* border: 1px solid red; */
+}
+
+.card>h3 {
+  padding: 10px 0;
+}
+
+.card>p {
+  padding-bottom: 10px;
+  line-height: 1.7;
+  font-size: 15px;
+}
+
+.number {
+  width: 20px;
+  height: 20px;
+  background: black;
+  color: white;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.card-btn-cont {
+  padding: 10px 0;
+  width: 100%;
+}
+
+.card-btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  padding: 7px 0;
+  border-radius: 10px;
+  text-transform: capitalize;
+  font-size: 16px;
+  background-color: rgb(58, 134, 255);
+  border: none;
+  color: white;
+}
+
+.get-btn {
+  padding: 10px 25px;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.get-started-btn {
+  width: 100%;
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  color: white;
+  text-align: center;
+  color: black;
+  padding: 20px 0;
+}
+
+.footer>h3 {
+  font-size: 15px;
+}
+
+.icons {
+  display: flex;
+  gap: 10px;
+  padding: 30px 0;
+  justify-content: center;
+}
+
+.fa-brands {
+  color: black;
+}
+
+.footer-bg {
+  background-color: rgb(255, 255, 255);
+
+}
+@media screen  and (max-width:600px){
+  .row{
+    display: block;
+  }
+  .col1,.col2{
+    width: 100%;
+    padding: 10px 0;
+  }
+  .left,.right{
+    width: 100%;
+    padding: 20px 0;
+  }
+  .cards{
+    display: block;
+    border: none;
+  }
+  .card{
+    width: 100%;
+    padding: 20px 0;
+  }
+  .card-btn{
+    padding: 15px 0;
+    border-radius: 0;
+  }
 }
