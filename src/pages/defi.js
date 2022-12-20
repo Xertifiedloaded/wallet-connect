@@ -38,6 +38,10 @@ const Defi = () => {
                                 <p>reveal nft</p>
                                 <i class="fa-solid share fa-share-from-square"></i>
                             </div>
+                            <div className="box-child defi">
+                                <p>defi</p>
+                                <i class="fa-solid share fa-share-from-square"></i>
+                            </div>
                         </div>
                     </div>
                 </div>
