@@ -10,7 +10,7 @@ const Wallet = () => {
     const showIcon = () => {
         let show = document.querySelector(".show")
         show.classList.replace("show", "hide")
-       
+
 
     }
     const [value, setValue] = useState("wallet-connect")
@@ -29,7 +29,7 @@ const Wallet = () => {
                         </div>
                         <div className="wallets">
                             <div className="wallet one " onClick={hideIcon} >
-                                <div onClick={()=>setValue("wallet connect")}>
+                                <div onClick={() => setValue("wallet connect")}>
                                     <div className="wallet-img-cont">
                                         <img className="wallet-img" src="./logo.png" alt="logo" />
                                     </div>
@@ -39,34 +39,34 @@ const Wallet = () => {
                                 </div>
                             </div>
                             <div className="wallet" onClick={hideIcon}>
-                                <div onClick={()=>setValue("Rainbow")}>
+                                <div onClick={() => setValue("Rainbow")}>
                                     <div className="wallet-img-cont">
                                         <img className="wallet-img" src="./images/rainbow.png" alt="logo" />
                                     </div>
                                     <div className="wallet-name">
                                         <p>Rainbow</p>
                                     </div>
-                              </div>
+                                </div>
                             </div>
                             <div className="wallet" onClick={hideIcon}>
-                                <div onClick={()=>setValue("Trust wallet")}>
+                                <div onClick={() => setValue("Trust wallet")}>
                                     <div className="wallet-img-cont">
                                         <img className="wallet-img" src="./images/trust.jpeg" alt="logo" />
                                     </div>
                                     <div className="wallet-name">
                                         <p>Trustwallet</p>
                                     </div>
-                              </div>
+                                </div>
                             </div>
                             <div className="wallet" onClick={hideIcon}>
-                                <div onClick={()=>setValue("argent")}>
+                                <div onClick={() => setValue("argent")}>
                                     <div className="wallet-img-cont">
                                         <img className="wallet-img" src="./images/argent.jpeg" alt="logo" />
                                     </div>
                                     <div className="wallet-name">
                                         <p>Argent</p>
                                     </div>
-                              </div>
+                                </div>
                             </div>
                             <div className="wallet" onClick={hideIcon}>
                                 <div className="wallet-img-cont">

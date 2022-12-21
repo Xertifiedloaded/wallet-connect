@@ -13,7 +13,7 @@ const Home = () => {
                             </div>
                             <div className="col2">
                                 <div className="hero-cont">
-                                    <img className="hero-img" src="./images/hero-image-laptop.png" alt="laptop" />
+                                    <img className="hero-img" src="./images/laptop.png" alt="laptop" />
                                 </div>
                             </div>
                         </div>
