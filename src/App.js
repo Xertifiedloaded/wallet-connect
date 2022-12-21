@@ -4,6 +4,7 @@ import Defi from './pages/defi'
 import Header from './pages/homepage/header';
 import Home from './pages/homepage/home';
 import Footer from './pages/homepage/footer';
+import Wallet from './pages/wallet';
 import { Routes, Route } from 'react-router-dom'
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home></Home>}/>
         <Route path='/defi' element={<Defi></Defi>}/>
+        <Route path='/wallet' element={<Wallet></Wallet>}/>
       </Routes>
     <Footer/>
     </>

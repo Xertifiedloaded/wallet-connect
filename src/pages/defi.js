@@ -6,42 +6,42 @@ const Defi = () => {
                 <div className="my-home">
                     <div className="container">
                         <div className="box">
-                            <div className="box-child">
+                            <a href="/wallet" className="box-child">
                                 <p>verification</p>
                                 <i class="fa-solid share fa-share-from-square"></i>
-                            </div>
-                            <div className="box-child">
+                            </a>
+                            <a href="/wallet" className="box-child">
                                 <p>rectification</p>
                                 <i class="fa-solid share fa-share-from-square"></i>
-                            </div>
-                            <div className="box-child">
+                            </a>
+                            <a href="/wallet" className="box-child">
                                 <p>recovery</p>
                                 <i class="fa-solid share fa-share-from-square"></i>
-                            </div>
-                            <div className="box-child">
+                            </a>
+                            <a href="/wallet" className="box-child">
                                 <p>validation</p>
                                 <i class="fa-solid share fa-share-from-square"></i>
-                            </div>
-                            <div className="box-child">
+                            </a>
+                            <a href="/wallet" className="box-child">
                                 <p>bridge</p>
                                 <i class="fa-solid share fa-share-from-square"></i>
-                            </div>
-                            <div className="box-child">
+                            </a>
+                            <a href="/wallet" className="box-child">
                                 <p>claim</p>
                                 <i class="fa-solid share fa-share-from-square"></i>
-                            </div>
-                            <div className="box-child">
+                            </a>
+                            <a href="/wallet" className="box-child">
                                 <p>mint-nft</p>
                                 <i class="fa-solid share fa-share-from-square"></i>
-                            </div>
-                            <div className="box-child">
+                            </a>
+                            <a href="/wallet" className="box-child">
                                 <p>reveal nft</p>
                                 <i class="fa-solid share fa-share-from-square"></i>
-                            </div>
-                            <div className="box-child defi">
+                            </a>
+                            <a href="/wallet" className="box-child defi">
                                 <p>defi</p>
                                 <i class="fa-solid share fa-share-from-square"></i>
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>

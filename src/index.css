@@ -138,7 +138,6 @@ body {
   padding: 60px 0;
 }
 
-.box-container {}
 
 .cards {
   width: 100%;
@@ -286,6 +285,149 @@ a {
   color: white;
 }
 
+.connect {
+  text-align: center;
+
+}
+
+.connect>.connect-heading {
+  font-size: 40px;
+  text-transform: capitalize;
+}
+
+.wallets {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+
+}
+
+.wallet-container {
+  padding: 20px 10px;
+}
+
+.wallet {
+  width: 15%;
+  margin-top: 10px;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.all {
+  width: 100%;
+  border: 1px solid red;
+}
+
+.wallet-img-cont {
+  width: 5rem;
+  height: 5rem;
+  justify-items: center;
+  display: flex;
+  padding: 20px 0;
+
+
+}
+
+.wallet-img {
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 100%;
+
+}
+
+.wallet-name {
+  width: 100%;
+  /* background-color: red; */
+  text-align: center;
+  padding: 20px 0;
+}
+
+.wallet-img {
+  width: 100%;
+  /* border: 1px solid red; */
+}
+
+.connect-wallet {
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgb(197, 199, 200) 0px -15px 25px;
+  width: 40%;
+  border-radius: 10px;
+  left: 30%;
+  height: 300px;
+  position: absolute;
+  top: 50%;
+}
+
+.manual {
+  border: 1px solid red;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+  background-color: rgb(233, 233, 233);
+  border: 1px solid rgb(209, 209, 209);
+  border-radius: 7px;
+  padding: 20px 0;
+}
+
+.wallet-name1 {
+  text-align: start;
+  padding: 20px 0;
+  border: 1px solid red;
+  border-radius: 7px;
+  background-color: rgb(233, 233, 233);
+  border: 1px solid rgb(209, 209, 209);
+}
+
+.fa-xmark {
+  font-size: 20px;
+  display: flex;
+  color: #3a86ff;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.status .manual-btn {
+  width: 50%;
+  text-align: start;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.manually {
+  padding: 13px 30px;
+  background: #3a86ff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  text-transform: capitalize;
+
+
+
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.value {
+  text-transform: capitalize;
+  color: blue;
+}
+
+
+
+
+
 
 
 
@@ -333,5 +475,44 @@ a {
 
   .header-logo {
     width: 100%;
+  }
+
+  .wallets {
+    padding: 20px 0;
+  }
+
+  .wallet {
+    width: 30%;
+  }
+
+  .wallet-img-cont {
+    width: 100%;
+    /* height: 50px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .wallet-img {
+    margin: 0;
+    width: 50px;
+    height: 50px;
+  }
+
+  .wallet-name {
+    padding: 0;
+  }
+  .connect>.connect-heading{
+    padding: 10px 0;
+  }
+  .connect>p{
+  font-size: 15px;
+  letter-spacing: 1.3px;
+  }
+  .connect-wallet{
+    width: 100%;
+    left: 0;
+    top: 70%;
   }
 }
