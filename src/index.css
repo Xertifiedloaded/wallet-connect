@@ -359,7 +359,7 @@ a {
   border-radius: 10px;
   left: 30%;
   height: 300px;
-  position: absolute;
+  position: fixed;
   top: 50%;
   display: none;
 }

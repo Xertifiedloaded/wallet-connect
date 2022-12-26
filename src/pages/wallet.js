@@ -14,10 +14,14 @@ const Wallet = () => {
         show1.classList.replace("show","hide")
    }
 
+
     const [value, setValue] = useState("wallet-connect")
 
+    const [open, setOpen] = useState(false)
     useEffect(() => {
-       
+        let handler = () => {
+           setOpen()
+       }
     }, [])
     return (
         <>
