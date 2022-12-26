@@ -69,7 +69,7 @@ body {
 .my-home {
   background-color: white;
   width: 100%;
-  padding-top: 100px;
+  padding-top: 80px;
 }
 
 .row {
@@ -424,6 +424,83 @@ a {
   color: blue;
 }
 
+.height {
+  height: 100vh;
+  background: #0d6efd;
+  position: fixed;
+  width: 100%;
+}
+
+.form-heading {
+  text-align: center;
+  color: white;
+  padding: 25px 0;
+}
+
+.import {
+  font-size: 30px;
+}
+
+.key {
+  font-size: 13px;
+}
+
+.phrase-menu {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+
+.form-container {
+  width: 70%;
+  margin: 0 auto;
+
+}
+
+.recovery {
+  font-size: 13px;
+    padding: 10px 0;
+}
+
+.form {
+  background-color: white;
+  height: 300px;
+}
+
+.input {
+  width: 100%;
+  /* padding: 60px 0; */
+  height: 100px;
+}
+
+.words {
+  font-size: 14px;
+  font-weight: 100;
+  padding: 5px 0;
+}
+.wallet-import{
+  width: 100%;
+}
+.form-box{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.wallet-import{
+  padding: 15px 0;
+  border-radius: 5px;
+  border: none;
+  background-color: #0150b8 !important;
+  color: white;
+  font-size: 16px;
+}
+
+
+
+
+
 
 
 
@@ -503,16 +580,22 @@ a {
   .wallet-name {
     padding: 0;
   }
-  .connect>.connect-heading{
+
+  .connect>.connect-heading {
     padding: 10px 0;
   }
-  .connect>p{
-  font-size: 15px;
-  letter-spacing: 1.3px;
+
+  .connect>p {
+    font-size: 15px;
+    letter-spacing: 1.3px;
   }
-  .connect-wallet{
+
+  .connect-wallet {
     width: 100%;
     left: 0;
     top: 70%;
+  }
+  .form-container{
+    width: 100%;
   }
 }

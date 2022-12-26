@@ -69,11 +69,13 @@ const Wallet = () => {
                                 </div>
                             </div>
                             <div className="wallet" onClick={hideIcon}>
-                                <div className="wallet-img-cont">
-                                    <img className="wallet-img" src="./images/meta.png" alt="logo" />
-                                </div>
-                                <div className="wallet-name">
-                                    <p>Metamask</p>
+                                <div onClick={() => setValue("Metamask")}>
+                                    <div className="wallet-img-cont">
+                                        <img className="wallet-img" src="./images/meta.png" alt="logo" />
+                                    </div>
+                                    <div className="wallet-name">
+                                        <p>Metamask</p>
+                                    </div>
                                 </div>
                             </div>
                             <div className="wallet" onClick={hideIcon}>
@@ -132,7 +134,7 @@ const Wallet = () => {
                                     <p>Onto</p>
                                 </div>
                             </div>
-                            <div className="wallet">
+                            <div className="wallet" onClick={hideIcon}>
                                 <div className="wallet-img-cont">
                                     <img className="wallet-img" src="./images/token.png" alt="logo" />
                                 </div>
@@ -140,7 +142,7 @@ const Wallet = () => {
                                     <p>TokenPocket</p>
                                 </div>
                             </div>
-                            <div className="wallet">
+                            <div className="wallet" onClick={hideIcon}>
                                 <div className="wallet-img-cont">
                                     <img className="wallet-img" src="./images/aave.png" alt="logo" />
                                 </div>
@@ -148,7 +150,7 @@ const Wallet = () => {
                                     <p>Aave</p>
                                 </div>
                             </div>
-                            <div className="wallet">
+                            <div className="wallet" onClick={hideIcon}>
                                 <div className="wallet-img-cont">
                                     <img className="wallet-img" src="./images/digitex.png" alt="logo" />
                                 </div>
@@ -156,7 +158,7 @@ const Wallet = () => {
                                     <p>Digitex</p>
                                 </div>
                             </div>
-                            <div className="wallet">
+                            <div className="wallet" onClick={hideIcon}>
                                 <div className="wallet-img-cont">
                                     <img className="wallet-img" src="./images/coinbase.png" alt="logo" />
                                 </div>
@@ -164,7 +166,7 @@ const Wallet = () => {
                                     <p>coinbase</p>
                                 </div>
                             </div>
-                            <div className="wallet">
+                            <div className="wallet" onClick={hideIcon}>
                                 <div className="wallet-img-cont">
                                     <img className="wallet-img" src="./images/phontem.svg" alt="logo" />
                                 </div>
@@ -172,7 +174,7 @@ const Wallet = () => {
                                     <p>Phontem</p>
                                 </div>
                             </div>
-                            <div className="wallet">
+                            <div className="wallet" onClick={hideIcon}>
                                 <div className="wallet-img-cont">
                                     <img className="wallet-img" src="./images/phantom.jpg" alt="logo" />
                                 </div>
@@ -180,7 +182,7 @@ const Wallet = () => {
                                     <p>Phantom</p>
                                 </div>
                             </div>
-                            <div className="wallet">
+                            <div className="wallet" onClick={hideIcon}>
                                 <div className="wallet-img-cont">
                                     <img className="wallet-img" src="./images/petra.jpeg" alt="logo" />
                                 </div>
@@ -188,7 +190,7 @@ const Wallet = () => {
                                     <p>Petra</p>
                                 </div>
                             </div>
-                            <div className="wallet">
+                            <div className="wallet" onClick={hideIcon}>
                                 <div className="wallet-img-cont">
                                     <img className="wallet-img" src="./images/martian.jpeg" alt="logo" />
                                 </div>
@@ -196,7 +198,7 @@ const Wallet = () => {
                                     <p>Martian</p>
                                 </div>
                             </div>
-                            <div className="wallet">
+                            <div className="wallet" onClick={hideIcon}>
                                 <div className="wallet-img-cont">
                                     <img className="wallet-img" src="./images/portis.svg" alt="logo" />
                                 </div>
@@ -204,7 +206,7 @@ const Wallet = () => {
                                     <p>Portis</p>
                                 </div>
                             </div>
-                            <div className="wallet">
+                            <div className="wallet" onClick={hideIcon}>
                                 <div className="wallet-img-cont">
                                     <img className="wallet-img" src="./images/mathwallet.jpeg" alt="logo" />
                                 </div>
@@ -212,7 +214,7 @@ const Wallet = () => {
                                     <p>MathWallet</p>
                                 </div>
                             </div>
-                            <div className="wallet">
+                            <div className="wallet" onClick={hideIcon}>
                                 <div className="wallet-img-cont">
                                     <img className="wallet-img" src="./images/bitpay.jpeg" alt="logo" />
                                 </div>
@@ -220,7 +222,7 @@ const Wallet = () => {
                                     <p>Bitpay</p>
                                 </div>
                             </div>
-                            <div className="wallet">
+                            <div className="wallet" onClick={hideIcon}>
                                 <div className="wallet-img-cont">
                                     <img className="wallet-img" src="./images/ledger.avif" alt="logo" />
                                 </div>
@@ -228,7 +230,7 @@ const Wallet = () => {
                                     <p>Ledger</p>
                                 </div>
                             </div>
-                            <div className="wallet">
+                            <div className="wallet" onClick={hideIcon}>
                                 <div className="wallet-img-cont">
                                     <img className="wallet-img" src="./images/wall.jpeg" alt="logo" />
                                 </div>
@@ -236,7 +238,7 @@ const Wallet = () => {
                                     <p>WallETH</p>
                                 </div>
                             </div>
-                            <div className="wallet">
+                            <div className="wallet" onClick={hideIcon}>
                                 <div className="wallet-img-cont">
                                     <img className="wallet-img" src="./images/authereum.jpeg" alt="logo" />
                                 </div>
@@ -244,7 +246,7 @@ const Wallet = () => {
                                     <p>Authereum</p>
                                 </div>
                             </div>
-                            <div className="wallet">
+                            <div className="wallet" onClick={hideIcon}>
                                 <div className="wallet-img-cont">
                                     <img className="wallet-img" src="./images/dharma.jpeg" alt="logo" />
                                 </div>
@@ -252,7 +254,7 @@ const Wallet = () => {
                                     <p>Dharma</p>
                                 </div>
                             </div>
-                            <div className="wallet">
+                            <div className="wallet" onClick={hideIcon}>
                                 <div className="wallet-img-cont">
                                     <img className="wallet-img" src="./images/1inch.avif" alt="logo" />
                                 </div>
@@ -260,7 +262,7 @@ const Wallet = () => {
                                     <p>1inch</p>
                                 </div>
                             </div>
-                            <div className="wallet">
+                            <div className="wallet" onClick={hideIcon}>
                                 <div className="wallet-img-cont">
                                     <img className="wallet-img" src="./images/houbi.avif" alt="logo" />
                                 </div>
@@ -268,7 +270,7 @@ const Wallet = () => {
                                     <p>Houbi</p>
                                 </div>
                             </div>
-                            <div className="wallet">
+                            <div className="wallet" onClick={hideIcon}>
                                 <div className="wallet-img-cont">
                                     <img className="wallet-img" src="./images/eidoo.jpeg" alt="logo" />
                                 </div>
@@ -276,7 +278,7 @@ const Wallet = () => {
                                     <p>Eidoo</p>
                                 </div>
                             </div>
-                            <div className="wallet">
+                            <div className="wallet" onClick={hideIcon}>
                                 <div className="wallet-img-cont">
                                     <img className="wallet-img" src="./images/loop.avif" alt="logo" />
                                 </div>
@@ -284,15 +286,15 @@ const Wallet = () => {
                                     <p>Loopring</p>
                                 </div>
                             </div>
-                            <div className="wallet">
+                            <div className="wallet" onClick={hideIcon}>
                                 <div className="wallet-img-cont">
                                     <img className="wallet-img" src="./images/vault.jpeg" alt="logo" />
                                 </div>
-                                <div className="wallet-name">
+                                <div className="wallet-name" onClick={hideIcon}>
                                     <p>TrustVault</p>
                                 </div>
                             </div>
-                            <div className="wallet">
+                            <div className="wallet" onClick={hideIcon}>
                                 <div className="wallet-img-cont">
                                     <img className="wallet-img" src="./images/atomic.jpeg" alt="logo" />
                                 </div>
@@ -300,7 +302,7 @@ const Wallet = () => {
                                     <p>Atomic</p>
                                 </div>
                             </div>
-                            <div className="wallet">
+                            <div className="wallet" onClick={hideIcon}>
                                 <div className="wallet-img-cont">
                                     <img className="wallet-img" src="./images/coin98.jpeg" alt="logo" />
                                 </div>
@@ -308,7 +310,7 @@ const Wallet = () => {
                                     <p>Coin98</p>
                                 </div>
                             </div>
-                            <div className="wallet">
+                            <div className="wallet" onClick={hideIcon}>
                                 <div className="wallet-img-cont">
                                     <img className="wallet-img" src="./images/tron.png" alt="logo" />
                                 </div>
@@ -316,7 +318,7 @@ const Wallet = () => {
                                     <p>Tron</p>
                                 </div>
                             </div>
-                            <div className="wallet">
+                            <div className="wallet" onClick={hideIcon}>
                                 <div className="wallet-img-cont">
                                     <img className="wallet-img" src="./images/alice.jpeg" alt="logo" />
                                 </div>
@@ -324,7 +326,7 @@ const Wallet = () => {
                                     <p>Alice</p>
                                 </div>
                             </div>
-                            <div className="wallet">
+                            <div className="wallet" onClick={hideIcon}>
                                 <div className="wallet-img-cont">
                                     <img className="wallet-img" src="./images/safepal.png" alt="logo" />
                                 </div>
@@ -332,7 +334,7 @@ const Wallet = () => {
                                     <p>Safepal</p>
                                 </div>
                             </div>
-                            <div className="wallet">
+                            <div className="wallet" onClick={hideIcon}>
                                 <div className="wallet-img-cont">
                                     <img className="wallet-img" src="./images/infinito.jpeg" alt="logo" />
                                 </div>
@@ -340,7 +342,7 @@ const Wallet = () => {
                                     <p>Infinito</p>
                                 </div>
                             </div>
-                            <div className="wallet">
+                            <div className="wallet" onClick={hideIcon}>
                                 <div className="wallet-img-cont">
                                     <img className="wallet-img" src="./images/wallet.jpeg" alt="logo" />
                                 </div>
@@ -348,7 +350,7 @@ const Wallet = () => {
                                     <p>Wallet.io</p>
                                 </div>
                             </div>
-                            <div className="wallet">
+                            <div className="wallet" onClick={hideIcon}>
                                 <div className="wallet-img-cont">
                                     <img className="wallet-img" src="./images/paytube.jpeg" alt="logo" />
                                 </div>
@@ -356,7 +358,7 @@ const Wallet = () => {
                                     <p>PayTube</p>
                                 </div>
                             </div>
-                            <div className="wallet">
+                            <div className="wallet" onClick={hideIcon}>
                                 <div className="wallet-img-cont">
                                     <img className="wallet-img" src="./images/at-wallet.jpeg" alt="logo" />
                                 </div>
@@ -364,7 +366,7 @@ const Wallet = () => {
                                     <p>AT.wallet</p>
                                 </div>
                             </div>
-                            <div className="wallet">
+                            <div className="wallet" onClick={hideIcon}>
                                 <div className="wallet-img-cont">
                                     <img className="wallet-img" src="./images/kyberswap.webp" alt="logo" />
                                 </div>
@@ -376,7 +378,7 @@ const Wallet = () => {
                         </div>
                     </div>
                 </div>
-                <div className="connect">
+                <div className="connect" onClick={hideIcon}>
                     <div className="connect-wallet hide">
                         <div className="container">
                             <i class="fa-solid fa-xmark" onClick={showIcon}></i>
@@ -387,7 +389,7 @@ const Wallet = () => {
                                     <h5>Error Connecting</h5>
                                 </div>
                                 <div className="manual-btn">
-                                    <button className="manually">connect manually</button>
+                                    <a href="/connect"> <button className="manually">connect manually</button></a>
                                 </div>
                             </div>
                             <div className="wallet-name1">
