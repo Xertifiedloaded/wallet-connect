@@ -6,7 +6,7 @@ import Home from './pages/homepage/home';
 import Footer from './pages/homepage/footer';
 import Wallet from './pages/wallet';
 import Connect from './setup/connect';
-import { Routes, Route } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
