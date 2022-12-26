@@ -235,7 +235,9 @@ body {
   background-color: rgb(255, 255, 255);
 
 }
-
+.add{
+  background-color: red;
+}
 .box {
   width: 100%;
   padding: 50px 0;
