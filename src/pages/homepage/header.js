@@ -16,7 +16,9 @@ const Header = () => {
                             </div>
                         </div>
                         <nav className="nav">
-                            <button className="nav-btn">connect</button>
+                            <a href="/defi">
+                                <button className="nav-btn">connect</button>
+                          </a>
                         </nav>
                     </div>
                 </div>
